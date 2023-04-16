@@ -4,8 +4,8 @@ pipeline {
         string(name: 'VERSION', description: 'Enter the APP VERSION')
     }
 environment{
-        AWS_ACCOUNT_ID="752692907119"
-        REGION="ap-south-1"
+        AWS_ACCOUNT_ID="301435234191"
+        REGION="us-east-2"
         REPO_URI="${AWS_ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/catalogue"
         DOCKER_REGISTRY = 'docker.io'
         DOCKER_REGISTRY_CREDENTIALS = 'docker-creds'
