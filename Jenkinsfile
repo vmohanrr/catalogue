@@ -67,7 +67,7 @@ environment{
                 script{
                     withAWS(credentials: 'aws-auth', region: "${REGION}") {
                         sh """
-                        aws eks update-kubeconfig --region ${REGION} --name eks-cluster
+                        aws eks update-kubeconfig --region ${REGION} --name spot-cluster-1
                         cd helm
                         helm install catalogue . --set deployment.imageVersion=${VERSION}
                         """
