@@ -10,7 +10,7 @@ environment{
         DOCKER_REGISTRY = 'docker.io'
         DOCKER_REGISTRY_CREDENTIALS = 'docker-creds'
         DOCKER_USERNAME="ramamohanrr"
-        DOCKER_PASSWORD="Aishusep23$"
+        DOCKER_PASSWORD="Aishusep23"
     }
   stages {
     stage('Clone') {
